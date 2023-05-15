@@ -92,8 +92,17 @@ css
 
 That's it! You have now completed the installation process of Bitbucket on RHEL. You can configure Bitbucket further according to your requirements and start using it for version control and collaboration.
 User
+
+
+
+#Need to setup the openjdk path in set-jre-home.sh file, under the name of JAVA_HOME or JRE_HOME
+
+#Also need to make change into the set-bitbucket-home.sh file
+
+#Also need to install git, from command line so that it will help to authenticate.
+
 configure bitbucket to run as service
-ChatGPT
+
 
 To configure Bitbucket to run as a service on Red Hat Enterprise Linux (RHEL), you can follow these steps:
 
