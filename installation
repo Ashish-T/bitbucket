@@ -81,6 +81,9 @@ If you have a firewall enabled, you need to allow incoming connections to the Bi
 
 css
 
+#install firewalld to run this command
+    sudo yum install firewalld
+
     sudo firewall-cmd --zone=public --add-port=7990/tcp --permanent
     sudo firewall-cmd --reload
 
